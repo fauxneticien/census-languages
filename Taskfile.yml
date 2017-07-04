@@ -1,0 +1,23 @@
+tidy-abs-csvs:
+  desc: "Tidy raw data downloaded from the ABS Census TableBuilder interface. Note trailing '&' characters make commands run concurrently!"
+  sources:
+    - data/raw/CensusTableBuilder/*.csv
+  generates:
+    - data/interim/tidied/*.csv
+  cmds:
+    # For information about how the filenames are coded, see data/raw/CensusTableBuilder/README.md
+    # Tidy the 2011 and 2016 INGP+LANP1 data
+    - Rscript scripts/tidy_abs_csv.R --start=12 --end=77 --colnames=INGP,LANP1,Persons,X4 --coltypes=ccic --nalocf=INGP
+        < data/raw/CensusTableBuilder/2011_INGP+LANP1.csv
+        > data/interim/tidied/2011_INGP+LANP1.csv &
+    - Rscript scripts/tidy_abs_csv.R --start=12 --end=77 --colnames=INGP,LANP1,Persons,X4 --coltypes=ccic --nalocf=INGP
+        < data/raw/CensusTableBuilder/2016_INGP+LANP1.csv
+        > data/interim/tidied/2016_INGP+LANP1.csv &
+
+    # Tidy the 2011 and 2016 INGP+LANP4-AustralianIndigenousLanguages data
+    - Rscript scripts/tidy_abs_csv.R --start=12 --end=1433 --colnames=INGP,LANP4,Persons,X4 --coltypes=ccic --nalocf=INGP
+        < data/raw/CensusTableBuilder/2011_INGP+LANP4-AustralianIndigenousLanguages.csv
+        > data/interim/tidied/2011_INGP+LANP4-AustralianIndigenousLanguages.csv &
+    - Rscript scripts/tidy_abs_csv.R --start=12 --end=1439 --colnames=INGP,LANP4,Persons,X4 --coltypes=ccic --nalocf=INGP
+        < data/raw/CensusTableBuilder/2016_INGP+LANP4-AustralianIndigenousLanguages.csv
+        > data/interim/tidied/2016_INGP+LANP4-AustralianIndigenousLanguages.csv

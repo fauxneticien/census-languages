@@ -1,0 +1,83 @@
+Australian Bureau of Statistics
+
+"2016 Census - Cultural Diversity"
+"INGP Indigenous Status and LANP - 1 Digit Level"
+"Counting: Persons, Place of Usual Residence"
+
+Filters:
+"Default Summation","Persons, Place of Usual Residence"
+
+
+"INGP Indigenous Status","LANP - 1 Digit Level",
+"Non-Indigenous","Northern European Languages",16518426,
+,"Southern European Languages",793249,
+,"Eastern European Languages",368771,
+,"Southwest and Central Asian Languages",571550,
+,"Southern Asian Languages",797004,
+,"Southeast Asian Languages",695424,
+,"Eastern Asian Languages",1091797,
+,"Australian Indigenous Languages",851,
+,"Other Languages",207891,
+,"Supplementary codes",50748,
+,"Not stated",245525,
+"Aboriginal","Northern European Languages",502419,
+,"Southern European Languages",1296,
+,"Eastern European Languages",201,
+,"Southwest and Central Asian Languages",470,
+,"Southern Asian Languages",126,
+,"Southeast Asian Languages",492,
+,"Eastern Asian Languages",810,
+,"Australian Indigenous Languages",54542,
+,"Other Languages",865,
+,"Supplementary codes",1534,
+,"Not stated",27304,
+"Torres Strait Islander","Northern European Languages",21392,
+,"Southern European Languages",124,
+,"Eastern European Languages",31,
+,"Southwest and Central Asian Languages",65,
+,"Southern Asian Languages",29,
+,"Southeast Asian Languages",94,
+,"Eastern Asian Languages",112,
+,"Australian Indigenous Languages",6323,
+,"Other Languages",232,
+,"Supplementary codes",1954,
+,"Not stated",1988,
+"Both Aboriginal and Torres Strait Islander","Northern European Languages",21059,
+,"Southern European Languages",42,
+,"Eastern European Languages",16,
+,"Southwest and Central Asian Languages",20,
+,"Southern Asian Languages",9,
+,"Southeast Asian Languages",27,
+,"Eastern Asian Languages",56,
+,"Australian Indigenous Languages",2885,
+,"Other Languages",82,
+,"Supplementary codes",1331,
+,"Not stated",1231,
+"Not stated","Northern European Languages",146148,
+,"Southern European Languages",7953,
+,"Eastern European Languages",3540,
+,"Southwest and Central Asian Languages",4613,
+,"Southern Asian Languages",3600,
+,"Southeast Asian Languages",4295,
+,"Eastern Asian Languages",3927,
+,"Australian Indigenous Languages",165,
+,"Other Languages",2639,
+,"Supplementary codes",834,
+,"Not stated",1233781,
+"Total","Northern European Languages",17209456,
+,"Southern European Languages",802673,
+,"Eastern European Languages",372549,
+,"Southwest and Central Asian Languages",576720,
+,"Southern Asian Languages",800757,
+,"Southeast Asian Languages",700338,
+,"Eastern Asian Languages",1096701,
+,"Australian Indigenous Languages",64763,
+,"Other Languages",211713,
+,"Supplementary codes",56392,
+,"Not stated",1509831,
+
+
+"INFO","Cells in this table have been randomly adjusted to avoid the release of confidential data. No reliance should be placed on small cells."
+
+
+(c) Commonwealth of Australia 2017
