@@ -1,5 +1,19 @@
 # ABS Census TableBuilder data
 
+## Licence (accessed 2017-07-04)
+
+All ABS data in this repository were obtained under a Creative Commons Attribution (CC-BY) licence:
+
+> Creative Commons licensing
+
+> The Australian Bureau of Statistics (ABS) supplies the bulk of its free and - as of 1 July 2010 - customised data with Creative Commons (CC) Attribution 2.5 Australia licensing. This lessens the restrictions on the use of that data considerably by changing the copyright from 'all rights reserved' to 'some rights reserved'. In effect, what the ABS asks is only that it be acknowledged as the source of the data.
+
+> People are free to re-use, build upon and distribute such data, even commercially. This makes a wealth of data more readily available to governments, the community, researchers and businesses, facilitating innovative research and development projects based on quality statistics, and promoting the wider use of statistics in the community, which is one of our core objectives.
+
+from: [Creative Commons licensing | Australian Bureau of Statistics](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)
+
+## Filenaming convention
+
 All the `.csv` files in this folder were downloaded from the Australian Bureau of Statistics (ABS) Census TableBuilder interface. The filenames are coded left-to-right as:
 
 - `2011_INGP+LANP1.csv`
